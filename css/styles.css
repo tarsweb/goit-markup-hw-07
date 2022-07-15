@@ -489,9 +489,9 @@ img{
   margin-left: 10px;
 }
 
-.contacts-social__link {
-  /* fill: var(--accent-link-color); */
-}
+/* .contacts-social__link {
+  fill: var(--accent-link-color);
+} */
 
 .contacts-social__link:hover,
 .contacts-social__link:focus {
@@ -600,9 +600,9 @@ img{
   color: var(--accent-light-color);
 }
 
-.form-subscribe {
+/* .form-subscribe {
 
-}
+} */
 
 .form-subscribe__label {
   display: inline-flex;
