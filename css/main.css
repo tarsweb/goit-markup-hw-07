@@ -747,6 +747,23 @@ img {
   line-height: 1.15;
 }
 
+.form-service_order--centered {
+  text-align: center;
+  margin-top: 20px;
+}
+.form-service_order--concord {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
 .form-field {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -905,22 +922,4 @@ img {
 }
 .form-service_order__button-submit:hover, .form-service_order__button-submit:focus {
   background-color: #188CE8;
-}
-
-.form-service_order__position-center {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.form-service_order__concord {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
