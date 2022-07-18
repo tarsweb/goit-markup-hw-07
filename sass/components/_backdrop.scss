@@ -75,6 +75,10 @@
 
   animation: fadeIn 350ms ease-in;
   animation-fill-mode: forwards;
+
+  .backdrop--is-hidden &{
+    animation: fadeOut 350ms ease-out;
+  }
 }
 
 .modal__button {
@@ -117,4 +121,4 @@
   line-height: 1.15;
 }
 
-@import './form-service_order';
+@import './form/form-service_order';

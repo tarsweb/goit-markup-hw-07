@@ -29,23 +29,28 @@
 }
 
 .work__description {
-  $border-color: #EEEEEE;
+  $border-color: #EEEEEE; 
 
   padding: 20px 24px;
+
+  max-width: 370px;
 
   border: 1px solid $border-color;
 }
 
 .work__title {
-  @extend %title;
-
   margin-top: 0;
   margin-bottom: 4px;
 
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
+
+  white-space: nowrap;
+  // overflow: hidden;
+  //text-overflow: ellipsis;
 }
 
 .work__type {

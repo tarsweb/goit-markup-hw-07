@@ -52,10 +52,10 @@
 //   }
 // }
 
-@import './address';
+@import './contact/address';
 
-@import './social-contacts';
-@import './social-link';
+@import './contact/social-contacts';
+@import './contact/social-link';
 
-@import './form-subscribe';
+@import './form/form-subscribe';
 

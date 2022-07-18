@@ -48,7 +48,7 @@ img {
   padding-bottom: 94px;
 }
 
-.work__title, .title {
+.title {
   margin-top: 0;
   margin-bottom: 50px;
   font-weight: 700;
@@ -262,13 +262,12 @@ img {
       flex-wrap: wrap;
   gap: 30px;
   margin: 0;
-  margin-left: -30px;
   padding-left: 0;
 }
 
 .works-list__item {
-  -webkit-transition: var(--main-transition-duration) var(--main-transition-timing-function);
-  transition: var(--main-transition-duration) var(--main-transition-timing-function);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
   transition-property: box-shadow;
@@ -309,16 +308,19 @@ img {
 
 .work__description {
   padding: 20px 24px;
+  max-width: 370px;
   border: 1px solid #EEEEEE;
 }
 
 .work__title {
   margin-top: 0;
   margin-bottom: 4px;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
+  white-space: nowrap;
 }
 
 .work__type {

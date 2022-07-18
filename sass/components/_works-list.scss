@@ -1,4 +1,4 @@
-@import './works-filter-list';
+@import './elements/works-filter-list';
 
 .works-list{
   @extend %list;
@@ -8,14 +8,17 @@
   gap: $margin-set-gap;
 
   margin: 0;
-  margin-left: calc(-1 * $margin-set-gap);
+  //margin-left: calc(-1 * $margin-set-gap);
 
   padding-left: 0;
 }
 
 .works-list__item {
 
-  transition: var(--main-transition-duration) var(--main-transition-timing-function);
+  // $count-inline: 3;
+  // flex-basis: calc(100% / $count-inline - $margin-set-gap);
+
+  transition: $main-transition-duration $main-transition-timing-function;
   transition-property: box-shadow;
 
   &:hover,
@@ -26,4 +29,4 @@
   }
 }
 
-@import './work';
+@import './elements/work';
