@@ -100,7 +100,7 @@ img {
           align-items: center;
 }
 
-.page-header__logo {
+.page-header__site-logo {
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -165,10 +165,10 @@ img {
   line-height: 1.192;
   color: #2196f3;
 }
-.site-logo--black {
+.site-logo--dark {
   color: #000000;
 }
-.site-logo--white {
+.site-logo--light {
   color: #ffffff;
 }
 
