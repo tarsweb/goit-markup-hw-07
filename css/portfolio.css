@@ -34,7 +34,7 @@ img {
   list-style: none;
 }
 
-.form-subscribe__button, .works-filter-list__button {
+.form-subscribe__button, .filter-button {
   color: #ffffff;
   background-color: #2196f3;
   border: none;
@@ -226,7 +226,7 @@ img {
   margin-left: 8px;
 }
 
-.works-filter-list__button {
+.filter-button {
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
@@ -240,14 +240,7 @@ img {
   transition-property: color, background-color, box-shadow;
   transition-property: color, background-color, box-shadow, -webkit-box-shadow;
 }
-.works-filter-list__button:hover, .works-filter-list__button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.current-button {
+.filter-button:hover, .filter-button:focus, .filter-button.current-button {
   color: #ffffff;
   background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -346,7 +339,7 @@ img {
   padding-left: 0;
 }
 
-.page-footer__logo {
+.page-footer__site-logo {
   margin-bottom: 20px;
 }
 
