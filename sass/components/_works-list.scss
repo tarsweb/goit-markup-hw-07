@@ -1,4 +1,4 @@
-@import './elements/works-filter-list';
+@import './parts/works-filter-list';
 
 .works-list{
   @extend %list;
@@ -29,4 +29,4 @@
   }
 }
 
-@import './elements/work';
+@import './parts/work';
